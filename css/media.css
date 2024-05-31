@@ -1,0 +1,177 @@
+/* xs */
+@media (max-width: 575px) {
+    .iam {
+        font-size: 1.25rem;
+    }
+
+    .change {
+        font-size: 1.125rem;
+    }
+
+    .about-head {
+        margin-top: 50px;
+    }
+
+    .services-head {
+        font-size: 1.875rem;
+    }
+
+    .services .container {
+        padding-inline: .9375rem;
+        margin-inline: auto;
+    }
+
+    .portfolio-head {
+        font-size: 1.875rem
+    }
+
+    .portfolio .container {
+        padding-inline: .9375rem;
+        margin-inline: auto;
+    }
+
+    .clients-head {
+        font-size: 1.375rem;
+    }
+
+    .numbers-m {
+        margin-block: 1.875rem;
+    }
+
+    .team-head {
+        font-size: 1.375rem;
+    }
+
+    .contact .container {
+        max-width: 540px;
+    }
+
+    .contact-head {
+        font-size: 1.375rem;
+    }
+
+    .contact-button {
+        max-width: 100px !important;
+        padding: 10px !important;
+    }
+}
+
+/* sm */
+@media (min-width: 576px) {
+    .navbar .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .iam {
+        font-size: 1.5625rem;
+    }
+
+    .change {
+        font-size: 1.5625rem;
+    }
+
+    .services .container {
+        padding-inline: .9375rem;
+        margin-inline: auto;
+    }
+
+    .portfolio-choices {
+        display: block;
+    }
+}
+
+/* Md */
+@media (min-width: 768px) {
+    .navbar .container {
+        width: 750px;
+    }
+
+    .iam {
+        font-size: 1.875rem;
+    }
+
+    .change {
+        font-size: 1.875rem;
+    }
+
+    .services .container {
+        width: 46.875rem;
+    }
+
+    .portfolio .container {
+        width: 46.875rem;
+    }
+
+    .contact .container {
+        max-width: 720px;
+    }
+
+    .contact-button {
+        max-width: 140px !important;
+        padding: 10px !important;
+    }
+}
+
+/* Lg */
+@media (min-width: 992px) {
+    .navbar .container {
+        width: 940px;
+    }
+
+    .iam {
+        font-size: 2.375rem;
+    }
+
+    .change {
+        font-size: 2.375rem;
+    }
+
+    .about-img::after {
+        bottom: 15px;
+    }
+
+    .services .container {
+        width: 60.625rem;
+    }
+
+    .portfolio .container {
+        width: 60.625rem;
+    }
+
+    .contact .container {
+        max-width: 850px;
+    }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+    .navbar .container {
+        width: 1170px;
+    }
+
+    .iam {
+        font-size: 2.8125rem;
+    }
+
+    .change {
+        font-size: 2.8125rem;
+    }
+
+    .about-img::after {
+        bottom: -0px;
+    }
+
+    .services .container {
+        width: 73.125rem;
+    }
+
+    .portfolio .container {
+        width: 73.125rem;
+    }
+}
+
+/* xxl */
+@media (min-width: 1400px) {}
